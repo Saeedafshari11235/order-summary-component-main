@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+#color{
+    color:#e0e8ff;
+    color:#3829e0;
+    color:#f5f7ff;
+    color:#7280a7;
+    color:#1f2f56;
+    color:#766cf1;
+}
+
+*{
+    max-width: 100%;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e8ff;
+}
+.main{
+    margin: auto auto;
+    height: auto;
+    width: 360px;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 19px;
+    box-shadow: 0px 20px 12px 2px #c7cfef;
+}
+.headimg{
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+h1,p{
+    text-align: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 22px;
+    color: #1f2f56;
+}
+p{
+    font-size: 13.5px;
+    color: #7280a7;
+}
+.plan{
+    margin: auto;
+    height: 100px;
+    width: 280px;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+}
+.plan-text{
+    font-weight: 900;
+    font-size: 15px;
+    color: #1f2f56;
+}
+.plan-pay{
+    color: #7280a7;
+}
+.pay{
+    border-radius: 10px;
+    height: 40px;
+    width: 280px;
+    background-color: #3829e0;
+    color: #f5f7ff;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0px 20px 12px 2px #e0e8ff;
+    border: none;
+}
+.pay:hover{
+    background-color: #766cf1;
+}
+.cancel{
+    border-radius: 10px;
+    height: 40px;
+    width: 280px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+    border: none;
+    background: none;
+    color: #7280a7;
+}
+.cancel:hover{
+    color: #1f2f56;
+    font-weight: 800;
+}
+.buttons{
+    margin: auto;
+    margin-top: 25px;
+    width: 280px;
+    height: 90px;
+}
+.miozic{
+    margin: 25px 15px;
+    float: left;
+}
+.paln-div{
+    float: right;
+}
+.change{
+    border: none;
+    background: none;
+    color: #3829e0;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 12px;
+    float: right;
+    position: relative;
+}
+.change:hover{
+    text-decoration: none;
+    color: #766cf1;
+}
