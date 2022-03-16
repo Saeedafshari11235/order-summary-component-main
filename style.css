@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-
 #color{
     color:#e0e8ff;
     color:#3829e0;
@@ -18,7 +17,7 @@
 body{
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #e0e8ff;
 }
 .main{
@@ -101,8 +100,8 @@ p{
     margin: 25px 15px;
     float: left;
 }
-.paln-div{
-    float: right;
+.plan-div{
+    padding-top: 25px;
 }
 .change{
     border: none;
@@ -112,7 +111,8 @@ p{
     font-weight: 700;
     font-size: 12px;
     float: right;
-    position: relative;
+    z-index: 1;
+    margin-top: -10%;
 }
 .change:hover{
     text-decoration: none;
