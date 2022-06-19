@@ -71,6 +71,7 @@ p{
     font-weight: 700;
     box-shadow: 0px 20px 12px 2px #e0e8ff;
     border: none;
+    transition: 0.7s;
 }
 .pay:hover{
     background-color: #766cf1;
@@ -85,6 +86,7 @@ p{
     border: none;
     background: none;
     color: #7280a7;
+    transition: 0.7s;
 }
 .cancel:hover{
     color: #1f2f56;
@@ -113,6 +115,7 @@ p{
     float: right;
     z-index: 1;
     margin-top: -10%;
+    transition: 0.7s;
 }
 .change:hover{
     text-decoration: none;
